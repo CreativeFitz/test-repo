@@ -1,0 +1,145 @@
+/* .Blog_Section{
+    background-color: blue
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif
+}
+
+#Blog-article-one {
+    border: 1px solid black
+} */
+
+/* 1. In your HTML file, between the body tags, create a footer element
+2. Give it a class of "blog-footer"
+3. Give it an id of "blog-footer-page-one"
+4. Create a file called `style.css`
+5. Link your CSS file to your HTML document.
+6. In `style.css`, select your footer element by its tag name and give it a background color of blue.
+7. Select the same footer element by its class of "blog-footer". This time give it a background-color of green.
+8. Select the same footer element by its id of "blog-footer-page-one". Give it a background-color of red. */
+
+/* footer{
+    background-color: blue;
+}
+.blog-footer{
+    background-color: green;
+}
+#blog-footer-page-one{
+    background-color: red;
+} */
+
+/* ## Lightning Exercise Three
+
+1. In your index.html file, copy and pate the following code:
+
+```html
+<article>
+  <h2>How to Write Really Good HTML</h2>
+  <p>This is the first paragraph.<a href="#">Click here for more details</a></p>
+  <p>This is the second paragraph</p>
+  <p>This is the third paragraph</p>
+  <img src="" alt="" />
+  <a href="#">Another link that's a child of the article!</a>
+  <p>This is the final paragraph</p>
+</article>
+```
+
+2. Select any `a` elements that are inside a `p` element. Make their font color black.
+3. Select any `p` element that is a directly adjacent sibling of an `h2` element and give it a `background-color` of `lightblue`.
+4. Select any `img` element that is a sibling of a `p` element and give it a `border-radius` of `30%`. (Doesn't need to be a directly adjscent sibling.) */
+/* 
+p a {
+    color: black;
+}
+
+h2 + p {
+    background-color: lightblue;
+}
+
+p ~ img{
+    border-radius: 30%;
+} */
+
+/* 1. Use the same HTML you copied and pasted before.
+2. Use `:first-child` to select the h2 element that is the first child of the article element.
+3. Use `:nth-child()` to select the paragraph element that's third child of the article element. */
+/* 
+article h2:first-child {
+    background-color: green;
+}
+
+p:nth-child(3) {
+    background-color: fuchsia;
+} */
+
+header{
+    border: 1px solid goldenrod;
+}
+
+ header ul {
+    display: inline-flex;
+    list-style-type: none;
+    } 
+
+header a {
+    padding: 10px;
+    }
+
+.disabled {
+    color: grey;
+}    
+
+a .disabled {
+    color: purple;
+}
+
+.active {
+    color: yellow;
+}
+
+
+.parent div:nth-child(1) {
+    color: red;
+}
+
+.parent div:nth-child(3) {
+    color:blue;
+}
+
+.parent div:first-child+h4 {
+    background-color: red;
+}
+
+.parent div:first-child+h4 {
+    background-color: red;
+}
+
+.parent div h4:nth-child(4) {
+    background-color: blue
+}
+
+.grandparent > h4 {
+    border: 25px solid black;
+    border-radius: 10px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
